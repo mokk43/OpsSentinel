@@ -1,0 +1,8 @@
+dashboards:
+  - id: aliyun-ops
+    url: https://example.internal/ops
+    # optional override; default: {STORAGE_STATE_DIR}/{id}.json
+    # storage_state: storage_state/aliyun-ops.json
+    # optional per-board login/success markers (override global env)
+    # login_url_markers: ["login", "signin"]
+    # success_url_markers: ["ops", "dashboard"]

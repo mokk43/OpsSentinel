@@ -1,0 +1,9 @@
+playwright>=1.40
+openai>=1.0
+requests>=2.31
+pydantic-settings>=2.0
+pydantic>=2.0
+pyyaml>=6.0
+loguru>=0.7
+pytest>=8.0
+responses>=0.25

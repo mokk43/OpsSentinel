@@ -157,6 +157,14 @@ ENV/
 env.bak/
 venv.bak/
 
+# OpsSentinel runtime
+storage_state/
+screenshots/
+logs/
+.monitor.lock
+state.json
+*.png
+
 # Spyder project settings
 .spyderproject
 .spyproject
