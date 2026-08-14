@@ -140,11 +140,13 @@ class Analyzer:
                     "role": "user",
                     "content": [
                         {"type": "image_url", "image_url": {"url": image_url}},
-                        {"type": "text", "text": user_text},
-                    ],
+                        {"type": "text", "text": user_text}
+                    ]
                 },
             ],
-            temperature=0,
+            temperature=0.6,
+            # Moonshot/Kimi thinking is not an OpenAI SDK param — pass via extra_body.
+            extra_body={"thinking": {"type": "disabled"}},
         )
         content = response.choices[0].message.content
         if not content:

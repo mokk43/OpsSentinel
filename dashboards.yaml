@@ -1,6 +1,6 @@
 dashboards:
   - id: aliyun-ops
-    url: https://example.internal/ops
+    url: https://dashboard.ebaocloud.com.cn/d/OfMcdDkiz/yi-bao-che-shang-yun?orgId=1&from=now-10m&to=now
     # optional override; default: {STORAGE_STATE_DIR}/{id}.json
     # storage_state: storage_state/aliyun-ops.json
     # optional per-board login/success markers (override global env)
