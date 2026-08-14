@@ -8,14 +8,14 @@
     <!-- Update these paths for the always-on host -->
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/gary/workspace/buildingai/bin/python</string>
+        <string>/ABS/PATH/TO/OpsSentinel/.venv/bin/python</string>
         <string>-m</string>
         <string>monitor</string>
         <string>run</string>
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/gary/workspace/OpsSentinel</string>
+    <string>/ABS/PATH/TO/OpsSentinel</string>
 
     <!-- Every 10 minutes; app no-ops outside Mon–Fri 09:30–18:10 Asia/Shanghai -->
     <key>StartInterval</key>
@@ -25,14 +25,14 @@
     <false/>
 
     <key>StandardOutPath</key>
-    <string>/Users/gary/workspace/OpsSentinel/logs/launchd.out.log</string>
+    <string>/ABS/PATH/TO/OpsSentinel/logs/launchd.out.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/gary/workspace/OpsSentinel/logs/launchd.err.log</string>
+    <string>/ABS/PATH/TO/OpsSentinel/logs/launchd.err.log</string>
 
     <key>EnvironmentVariables</key>
     <dict>
         <!-- Optional: point at a specific .env if not next to WorkingDirectory -->
-        <!-- <key>ENV_FILE</key><string>/Users/gary/workspace/OpsSentinel/.env</string> -->
+        <!-- <key>ENV_FILE</key><string>/ABS/PATH/TO/OpsSentinel/.env</string> -->
     </dict>
 </dict>
 </plist>
