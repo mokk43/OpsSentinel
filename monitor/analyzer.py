@@ -18,6 +18,7 @@ SYSTEM_PROMPT = """You are an SRE assistant. Analyze OPS dashboard screenshots a
 
 Detect (use severity "critical" when clearly visible):
 - DOWN / FAILED / ERROR services (red or crossed-out indicators)
+- 全租户 Top 50X API has obvious spikes, single bar's value is more than 100
 - Resource use >90% (CPU, memory, disk, network), except for ES数据节点 group
 - For ES数据节点 group, CPU usage >120% is critical
 - Latency spikes (>5x baseline) when baseline/labels are visible
